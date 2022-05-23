@@ -4,7 +4,7 @@ from marcssupercoolpack.lib import try_me
 def test_dice_min_max():
     out = []
     for i in range(1000):
-        out.append(try_me(faces = 6, return_int=True))
+        out.append(try_me(faces = 10, return_int=True))
     assert min(out) == 1
     assert max(out) == 6
 

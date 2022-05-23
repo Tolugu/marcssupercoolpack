@@ -12,5 +12,3 @@ def try_me(faces = 6, return_int = False):
     return print(f'You rolled a {roll}, use faces = x to pick your die.')
 
 try_me(-3)
-
-# lalala
